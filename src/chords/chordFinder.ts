@@ -1,0 +1,64 @@
+export function chordFinder(chord: string) {
+  switch (chord) {
+    case "A":
+      return "https://www.chordie.com/ramimages/i5/Achord_N02220_1.png";
+    case "Am":
+      return "https://www.chordie.com/ramimages/i2/Amchord_N02210_1.png";
+    case "Adim":
+      return "https://www.chordie.com/ramimages/i2/Adimchord_NN1212_1.png";
+    case "A#":
+      return "https://www.chordie.com//ramimages/i7/Asharpchord_N10331_1.png";
+    case "A#m":
+      return "https://www.chordie.com/ramimages/i2/Asharpmchord_N13321_1.png";
+    case "A#dim":
+      return "https://www.chordie.com/ramimages/i4/Asharpdimchord_NN2323_1.png";
+    case "B":
+      return "https://www.chordie.com/ramimages/i7/Bchord_N24442_1.png";
+    case "Bm":
+      return "https://www.chordie.com//ramimages/i3/Bmchord_N20432_1.png";
+    case "Bdim":
+      return "https://www.chordie.com//ramimages/i2/BdimslashAchord_100101_1.png";
+    case "C":
+      return "https://www.chordie.com/ramimages/i8/Cchord_N32010_1.png";
+    case "Cm":
+      return "https://www.chordie.com//ramimages/i2/Cmchord_113321_3.png";
+    case "Cdim":
+      return "https://www.chordie.com//ramimages/i1/Cdimchord_N01212_1.png";
+    case "C#":
+      return "https://www.chordie.com/ramimages/i4/Csharpchord_NN3121_1.png";
+    case "C#m":
+      return "https://www.chordie.com//ramimages/i7/Csharpmchord_013321_4.png";
+    case "C#dim":
+      return "https://www.chordie.com//ramimages/i9/Csharpdimchord_012020_1.png";
+    case "D":
+      return "https://www.chordie.com/ramimages/i2/Dchord_NN0232_1.png";
+    case "Dm":
+      return "https://www.chordie.com/ramimages/i8/Dmchord_NN0231_1.png";
+    case "D#":
+      return "https://www.chordie.com/ramimages/i7/Dsharpchord_NN3121_3.png";
+    case "E":
+      return "https://www.chordie.com/ramimages/i1/Echord_022100_1.png";
+    case "Em":
+      return "https://www.chordie.com/ramimages/i4/Emchord_022000_1.png";
+    case "F":
+      return "https://www.chordie.com/ramimages/i6/Fchord_133211_1.png";
+    case "Fm":
+      return "https://www.chordie.com/ramimages/i1/Fmchord_133111_1.png";
+    case "F#":
+      return "https://www.chordie.com/ramimages/i8/Fsharpchord_244322_1.png";
+    case "F#m":
+      return "https://www.chordie.com/ramimages/i4/Fsharpmchord_244222_1.png";
+    case "G":
+      return "https://www.chordie.com/ramimages/i0/Gchord_320003_1.png";
+    case "Gm":
+      return "https://www.chordie.com/ramimages/i0/Gmchord_133111_3.png";
+    case "G#":
+      return "https://www.chordie.com/ramimages/i8/Abchord_133211_4.png";
+    case "G#m":
+      return "https://www.chordie.com//ramimages/i6/Abmchord_133111_4.png";
+    case "G#dim":
+      return "https://www.chordie.com//ramimages/i7/Abdimchord_123131_4.png";
+    default:
+      return "";
+  }
+}
